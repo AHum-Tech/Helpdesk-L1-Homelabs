@@ -22,7 +22,7 @@
 |RAM		| 4 GB (4096 MB)|
 |Storage	| 100 GB 	|
 
-**Image:** ![Windows Server 2022 VM Spec](Screenshots/Windows_Server_2022_VM_Specification.PNG)
+![Windows Server 2022 VM Spec](Screenshots/Windows_Server_2022_VM_Specification.PNG)
 
 **Windows 11**
 |Component  	| Specification	|
