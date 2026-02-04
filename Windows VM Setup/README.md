@@ -1,8 +1,6 @@
 # Windows VM Setup Specification
 
-
 **Orcacle Virtualbox Version 7.2.4 r170995**
-
 
 **Host Machine**
 |Component  	| Specification		|
@@ -23,6 +21,8 @@
 |Processors	| 2 Core 	|
 |RAM		| 4 GB (4096 MB)|
 |Storage	| 100 GB 	|
+
+**Image:** '![Screenshot](Windows Server 2022 VM Specification.PNG)'
 
 **Windows 11**
 |Component  	| Specification	|
