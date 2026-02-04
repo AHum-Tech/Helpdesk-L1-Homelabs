@@ -32,6 +32,8 @@
 |RAM		| 4 GB (4096 MB)|
 |Storage	| 80 GB		|
 
+![Windows 11 VM Spec](Screenshots/Windows_11_VM_Specification.PNG)
+
 **Windows 10**
 |Component  	| Specification	|
 |---------------|---------------|
@@ -39,3 +41,6 @@
 |Processors	| 2 Core 	|
 |RAM		| 3 GB (3072 MB)|
 |Storage	| 60 GB		|
+
+![Windows 11 VM Spec](Screenshots/Windows_10_VM_Specification.PNG)
+
