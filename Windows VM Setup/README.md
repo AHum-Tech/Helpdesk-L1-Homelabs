@@ -1,4 +1,4 @@
-#Windows VM Setup Specification#
+# Windows VM Setup Specification
 
 **Orcacle Virtualbox Version 7.2.4 r170995**
 
