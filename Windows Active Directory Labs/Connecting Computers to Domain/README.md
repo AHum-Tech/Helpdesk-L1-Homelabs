@@ -40,4 +40,4 @@ Enter the Domain name (`AHTech.Homelabs`) and type in credentials to connect to 
 
 Verify on the Active Directory that the computer has successfully connected.
 
-![Confirmed Established Connection](Screenshots/Confirmed Establshed Connection.PNG)
+![Confirmed Established Connection](Screenshots/Confirmed_Establshed_Connection.PNG)
