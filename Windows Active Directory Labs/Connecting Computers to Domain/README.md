@@ -4,7 +4,7 @@
 
 Connect Windows 10 and Windows 11 Computers to the Domain Controller.
 
-## Configuring IPs and DNS on Windows Server 2022
+### Configuring IPs and DNS on Windows Server 2022
 
 Assign a Static IP and Subnet Mask to the Windows Server 2022 instance hosting the Domain Controller. 
 Set the Preferred DNS to either the server's static IP or the loopback address '127.0.0.1' to ensure proper service resolution.
@@ -17,7 +17,7 @@ and Preferred DNS settings match your Domain Controller's configuration.
 ![Domain Controller IP and DNS Configuration Confirmation](Screenshots/Establishing_a_Static_IP_for_AD_CMD.PNG)
 
  
-## Configuring IPs and DNS on Windows 10 Computer
+### Configuring IPs and DNS on Windows 10 Computer
 
 
 
