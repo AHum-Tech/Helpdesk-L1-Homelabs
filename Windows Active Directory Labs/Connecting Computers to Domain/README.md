@@ -19,6 +19,8 @@ and Preferred DNS settings match your Domain Controller's configuration.
  
 ### Configuring IPs and DNS on Windows 10 Computer
 
-
+Set the Preferred DNS to Server's Static IP Address
+>**Note**: In a production environment, workstations typically receive DNS settings automatically via DHCP. 
+A static configuration is used here because the lab environment currently lacks a dedicated DHCP server.
 
 
