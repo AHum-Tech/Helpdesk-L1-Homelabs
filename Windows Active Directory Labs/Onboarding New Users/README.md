@@ -12,5 +12,4 @@
 
 
 
-2) Create a network drive called "AHTech Shared File" that is available for all Users.
-Within 
+2) Create and map a network drive to each user's account called "AHTech Shared File" that is accessible by all Users. Within it, create a folder for each department that can be accessed by the members of their department. Save a file with their name in it to verify.
