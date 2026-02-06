@@ -33,7 +33,7 @@ Connectivity Check: Open Command Prompt and verify the connection to the Domain 
 ![Windows 10 Verify DNS connection to Domain Controller](Screenshots/WIN10User_Verify_Connection_with_Domain_Controller_CMD.png)
 
 After verification, go to System Properties `Settings > System > About > Advanced > Rename this Computer`.
-Through System Properties in Computer Name tab, `Change` Member of Workgroup to Domain.
+Through `System Properties` under `Computer Name` click `Change` and change Member of Workgroup to Domain.
 Enter the Domain name (`AHTech.Homelabs`) and type in credentials to connect to the Domain.
 
 ![Windows 10 Establish Connection to Domain](Screenshots/WIN10User_Established_Connection_to_Domain.PNG)
