@@ -12,9 +12,13 @@
 
 
 
-2) Create a network drive to each user's account called "AHTech Shared Folder" that is accessible by all Users. Within it, create a folder for each department that can be accessed by only the members of their department. Each New User should have their own home folder with modify permissions in their respective department. Then log into each user's account and create a text file with their name to verify access.
+2) **Create a Shared Home Folder**
+ 
+-Create a network drive to each user's account called "AHTech Shared Folder" that is accessible by all Users.
+-Within it, create a folder for each department that can be accessed by only the members of their department. Each New User should have their own home folder with modify permissions in their respective department. 
+-Then log into each user's account and create a text file with their name to verify access.
 
-3) Map "AHTech Shared Folder" to a drive for easy access.
+3) Map "AHTech Shared Folder" to a drive on New User's account for easy access.
 
 ## Onboarding Process
 
