@@ -57,7 +57,7 @@ Similar to Users, Active Directory allows creation of Security Groups to easily 
 
 For the objective, we will be using `Global` Group Scope and `Security` Group Type for our Security Group Departments
 
-<img src="Creating New Users and Security Groups/Finance_Group_Creation.PNG" alt="Creating Security Groups" width="800">
+<img src="Screenshots/Creating_New_Users_and_Security_Groups/Finance_Group_Creation.PNG" alt="Creating Security Groups" width="800">
 
 **Adding Members to Security Groups**
 
