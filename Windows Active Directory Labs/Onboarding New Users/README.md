@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1) Create the specified users in our branch in Los Angeles and assign them to their corresponding department security groups to ensure proper NTFS permission inheritance.
+1) Create the specified users in our branch in Los Angeles. Then create and assign them to their corresponding department security groups to ensure proper NTFS permission inheritance.
 
 |Names		|Department	|Title				|Company Number		 |Email			|Special Notes							|
 |---------------|---------------|-------------------------------|------------------------|----------------------|-------------------------------------------------------|
@@ -27,13 +27,18 @@
 In the Los Angeles/Users OU, create the New User and their credentials. Then create a password and tick the necessary options for the new account. 
 >**Note**: "Emily Walsh" and a Windows 11 Client will be used as an example throughout the process. This will be the same for the other New Users and on Windows 10 Client. 
 
+<img src="Screenshots/Emily_Walsh_New_User.PNG" alt="Creating New Users" width="400">
 ![Creating New Users](Screenshots/Emily_Walsh_New_User.PNG)
 ![New User Password Creation](Screenshots/Emily_Walsh_New_User_Password.PNG)
 
-In the `General` and `Organization` Tab, add in other information and descriptions for each end user.
+In the same `Properties` dialog box under the `General` and `Organization` Tab, add in other information and descriptions for each end user.
 
 ![General Tab](Screenshots/Emily_Walsh_General_Informations.PNG)
 ![Organization Tab](Screenshots/Emily_Walsh_Organization_Informations.PNG)
+
+### Creating Security Groups
+
+
 
 
 
