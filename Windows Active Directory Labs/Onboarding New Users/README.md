@@ -33,8 +33,9 @@ In the Los Angeles/Users OU, create the New User and their credentials. Then cre
 
 In the same `Properties` dialog box under the `General` and `Organization` Tab, add in other information and descriptions for each end user.
 
-![General Tab](Screenshots/Emily_Walsh_General_Informations.PNG)
-![Organization Tab](Screenshots/Emily_Walsh_Organization_Informations.PNG)
+<img src="Screenshots/Emily_Walsh_General_Informations.PNG" alt="General Tab" width="800">
+
+<img src="Screenshots/Emily_Walsh_Organization_Informations.PNG" alt="Organization Tab" width="800">
 
 ### Creating Security Groups
 
