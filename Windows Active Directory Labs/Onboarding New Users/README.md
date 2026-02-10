@@ -74,7 +74,7 @@ The folder was named "AHTech Shared Folder" as directed by the objective.
 
 After the Server's Main Shared Folder is created, each department's designated shared folder can be created (Finance, HR, and Marketing).
 
-<img src="Screenshots/Create_Share_Folder_For_Each_Department.PNG" alt="Designated Department Shared Folder" width="800">
+<img src="Screenshots/Creating a Shared Folder/Create_Share_Folder_For_Each_Department.PNG" alt="Designated Department Shared Folder" width="800">
 
 Before Sharing the Folder, we must ensure that each Shared Folder has the correct Sharing and NTFS permissions using the "Least Priviledge" princicple.
 For best practice it is best to share the folder using `Advanced Sharing` and give "Full Control" to Everyone or specific group. Then fine tune the Access Control with NTFS Permissions.
