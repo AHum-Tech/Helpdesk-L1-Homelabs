@@ -2,7 +2,7 @@
 
 ## Objective
 
-Connect Windows 10 and Windows 11 Computers to the Domain Controller.
+Connect Windows 10 and Windows 11 Clients to the Domain Controller.
 
 ### Configuring IPs and DNS on Windows Server 2022
 
@@ -26,7 +26,7 @@ Set the Preferred DNS to Server's Static IP Address
 >**Note**: In a production environment, workstations typically receive DNS settings automatically via DHCP. 
 A static configuration is used here because the lab environment currently lacks a dedicated DHCP server.
 
-![Windows 10 Computer IP and DNS Configurations](Screenshots/WIN10User_Preferred_DNS_Server_Configuration.PNG)
+![Windows 10 Client IP and DNS Configurations](Screenshots/WIN10User_Preferred_DNS_Server_Configuration.PNG)
 
 Connectivity Check: Open Command Prompt and verify the connection to the Domain Controller using the `ping` command: `ping 192.168.10.10`
 

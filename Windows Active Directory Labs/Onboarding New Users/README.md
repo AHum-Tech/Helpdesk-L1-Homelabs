@@ -30,6 +30,11 @@ In the Los Angeles/Users OU, create the New User and their credentials. Then cre
 ![Creating New Users](Screenshots/Emily_Walsh_New_User.PNG)
 ![New User Password Creation](Screenshots/Emily_Walsh_New_User_Password.PNG)
 
+In the `General` and `Organization` Tab, add in other information and descriptions for each end user.
+
+![General Tab](Screenshots/Emily_Walsh_General_Informations.PNG)
+![Organization Tab](Screenshots/Emily_Walsh_Organization_Informations.PNG)
+
 
 
 
