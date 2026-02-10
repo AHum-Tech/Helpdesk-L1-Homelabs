@@ -27,15 +27,15 @@ Verify access to the new accounts before proceeding to creating new share folder
 In the Los Angeles/Users OU, create the New User and their credentials. Then create a password and tick the necessary options for the new account. 
 >**Note**: "Emily Walsh" and a Windows 11 Client will be used as an example throughout the process. This will be the same for the other New Users and on Windows 10 Client. 
 
-<img src="Screenshots/Emily_Walsh_New_User.PNG" alt="Creating New Users" width="800">
+<img src="Screenshots/Creating New Users and Security Groups/Emily_Walsh_New_User.PNG" alt="Creating New Users" width="800">
 
-<img src="Screenshots/Emily_Walsh_New_User_Password.PNG" alt="New User Password Creation" width="800">
+<img src="Screenshots/Creating New Users and Security Groups/Emily_Walsh_New_User_Password.PNG" alt="New User Password Creation" width="800">
 
 In the same `Properties` dialog box under the `General` and `Organization` Tab, add in other information and descriptions for each end user.
 
-<img src="Screenshots/Emily_Walsh_General_Informations.PNG" alt="General Tab" width="800">
+<img src="Screenshots/Creating New Users and Security Groups/Emily_Walsh_General_Informations.PNG" alt="General Tab" width="800">
 
-<img src="Screenshots/Emily_Walsh_Organization_Informations.PNG" alt="Organization Tab" width="800">
+<img src="Screenshots/Creating New Users and Security Groups/Emily_Walsh_Organization_Informations.PNG" alt="Organization Tab" width="800">
 
 ### Creating Security Groups
 
@@ -57,20 +57,20 @@ Similar to Users, Active Directory allows creation of Security Groups to easily 
 
 For the objective, we will be using `Global` Group Scope and `Security` Group Type for our Security Group Departments
 
-<img src="Screenshots/Creating_New_Users_and_Security_Groups/Finance_Group_Creation.PNG" alt="Creating Security Groups" width="800">
+<img src="Screenshots/Creating New Users and Security Groups/Creating_New_Users_and_Security_Groups/Finance_Group_Creation.PNG" alt="Creating Security Groups" width="800">
 
 **Adding Members to Security Groups**
 
 To add a member to a security group, `right-click` the Security group and click `Properties`. Under the `Members`tab enter the members name and add them to the group.
 
-<img src="Screenshots/Finance_Group_Adding Members.PNG" alt="Adding Members to Security Groups" width="800">
+<img src="Screenshots/Creating New Users and Security Groups/Finance_Group_Adding Members.PNG" alt="Adding Members to Security Groups" width="800">
 
 ## Creating a Shared Home Folder
 
 To create a Shared Folder on the Domain, use the Server Manager under Shares to create a new Share Folder.
 The folder was named "AHTech Shared Folder" as directed by the objective.
 
-<img src="Screenshots/Creating_A_New_Share_Folder.PNG" alt="Creating a New Share Folder" width="800">
+<img src="Screenshots/Creating a Shared Folder/Creating_A_New_Share_Folder.PNG" alt="Creating a New Share Folder" width="800">
 
 After the Server's Main Shared Folder is created, each department's designated shared folder can be created (Finance, HR, and Marketing).
 
