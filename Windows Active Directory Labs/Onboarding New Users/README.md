@@ -4,7 +4,7 @@
 
 1) Create the specified users in our branch in Los Angeles. Then create and assign them to their corresponding department security groups to ensure proper NTFS permission inheritance.
 
-|Names		|Department	|Title				|Company Number		 |Email			|Special Notes							
+|Names		|Department	|Title				|Company Number		 |Email			|Notes							
 |---------------|---------------|-------------------------------|------------------------|----------------------|-------------------------------------------------------|
 |Emily Walsh	|Finance	|Chief Financial Officer (CFO)	|(382) 390-3905 Ext. 3945|`ewalsh@AHTech.com`	|Give special modify permission to the Finance Folder	|
 |Chris Chen	|HR		|Talent Acquisition Specialist	|(382) 390-3905 Ext. 2034|`cchen@AHTech.com`	|Only give modify permission to their Home Folder	|						
@@ -57,7 +57,7 @@ Similar to Users, Active Directory allows creation of Security Groups to easily 
 
 For the objective, we will be using `Global` Group Scope and `Security` Group Type for our Security Group Departments
 
-<img src="Screenshots/Finance_Group_Creation.PNG" alt="Creating Security Groups" width="800">
+<img src="Creating New Users and Security Groups/Finance_Group_Creation.PNG" alt="Creating Security Groups" width="800">
 
 **Adding Members to Security Groups**
 
