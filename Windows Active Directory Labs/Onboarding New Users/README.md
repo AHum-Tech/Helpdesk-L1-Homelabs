@@ -57,13 +57,13 @@ Similar to Users, Active Directory allows creation of Security Groups to easily 
 
 For the objective, we will be using `Global` Group Scope and `Security` Group Type for our Security Group Departments
 
-<img src="Finance_Group_Creation.PNG" alt="Creating Security Groups" width="800">
+<img src="Screenshots/Finance_Group_Creation.PNG" alt="Creating Security Groups" width="800">
 
 **Adding Members to Security Groups**
 
 To add a member to a security group, `right-click` the Security group and click `Properties`. Under the `Members`tab enter the members name and add them to the group.
 
-<img src="Finance_Group_Adding Members.PNG" alt="Adding Members to Security Groups" width="800">
+<img src="Screenshots/Finance_Group_Adding Members.PNG" alt="Adding Members to Security Groups" width="800">
 
 
 
