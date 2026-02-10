@@ -42,12 +42,29 @@ In the same `Properties` dialog box under the `General` and `Organization` Tab, 
 Similar to Users, Active Directory allows creation of Security Groups to easily manage and set group policies for Users in each department.
 
 **Understanding Group Scopes**
+|Group Scopes	|Users		|Resources	|Common Use		|
+|---------------|---------------|---------------|-----------------------|
+|Domain Local	|Any Domain	|Same Domain	|Managing Permissions	|
+|Global		|Same Domain	|Any Domain	|Managing Roles		|
+|Universal	|Any Domain	|Any Domain	|Enterprise Roles	|
 
-Domain Local- Users from any trusted Domain/Resources shared only in the same Domain (Used mostly for managing permissions)
+**Understanding Group Types**
 
-Global- Only Users from the same Domain/Resources shared from any Domain (Used mostly for managing roles)
+|Group Types	|Common Use			|
+|---------------|-------------------------------|
+|Security	|Managing Access Control	|
+|Distribution	|Managing Email Distribution	|
 
-Universal- Users from any Domain/Resources shared from any Domain (Used mostly in enterprise roles)
+For the objective, we will be using `Global` Group Scope and `Security` Group Type for our Security Group Departments
+
+<img src="Finance_Group_Creation.PNG" alt="Creating Security Groups" width="800">
+
+**Adding Members to Security Groups**
+
+To add a member to a security group, `right-click` the Security group and click `Properties`. Under the `Members`tab enter the members name and add them to the group.
+
+<img src="Finance_Group_Adding Members.PNG" alt="Adding Members to Security Groups" width="800">
+
 
 
 
