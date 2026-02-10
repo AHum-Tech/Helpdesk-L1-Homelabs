@@ -28,7 +28,7 @@ In the Los Angeles/Users OU, create the New User and their credentials. Then cre
 >**Note**: "Emily Walsh" and a Windows 11 Client will be used as an example throughout the process. This will be the same for the other New Users and on Windows 10 Client. 
 
 ![Creating New Users](Screenshots/Emily_Walsh_New_User.PNG)
-![New User Password Creation] (Screenshots/Emily_Walsh_New_User_Password.PNG)
+![New User Password Creation](Screenshots/Emily_Walsh_New_User_Password.PNG)
 
 
 
