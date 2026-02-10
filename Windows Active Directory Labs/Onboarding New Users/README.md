@@ -28,10 +28,8 @@ In the Los Angeles/Users OU, create the New User and their credentials. Then cre
 >**Note**: "Emily Walsh" and a Windows 11 Client will be used as an example throughout the process. This will be the same for the other New Users and on Windows 10 Client. 
 
 <img src="Screenshots/Emily_Walsh_New_User.PNG" alt="Creating New Users" width="800">
-<img src="Screenshots/Emily_Walsh_New_User_Password.PNG" alt="New User Password Creation" width="800">
 
-![Creating New Users](Screenshots/Emily_Walsh_New_User.PNG)
-![New User Password Creation](Screenshots/Emily_Walsh_New_User_Password.PNG)
+<img src="Screenshots/Emily_Walsh_New_User_Password.PNG" alt="New User Password Creation" width="800">
 
 In the same `Properties` dialog box under the `General` and `Organization` Tab, add in other information and descriptions for each end user.
 
