@@ -42,8 +42,11 @@ In the same `Properties` dialog box under the `General` and `Organization` Tab, 
 Similar to Users, Active Directory allows creation of Security Groups to easily manage and set group policies for Users in each department.
 
 **Understanding Group Scopes**
+
 Domain Local- Users from any trusted Domain/Resources shared only in the same Domain (Used mostly for managing permissions)
+
 Global- Only Users from the same Domain/Resources shared from any Domain (Used mostly for managing roles)
+
 Universal- Users from any Domain/Resources shared from any Domain (Used mostly in enterprise roles)
 
 
