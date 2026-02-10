@@ -37,6 +37,10 @@ In the same `Properties` dialog box under the `General` and `Organization` Tab, 
 
 <img src="Screenshots/Creating New Users and Security Groups/Emily_Walsh_Organization_Informations.PNG" alt="Organization Tab" width="800">
 
+Finally verify access to the new account by logging into a domain client.
+
+<img src="Screenshots/Creating New Users and Security Groups/Emily_Walsh_Login_Confirmation.PNG" alt="Login Confirmation" width="800">
+
 ### Creating Security Groups
 
 Similar to Users, Active Directory allows creation of Security Groups to easily manage and set group policies for Users in each department.
@@ -72,12 +76,18 @@ The folder was named "AHTech Shared Folder" as directed by the objective.
 
 <img src="Screenshots/Creating a Shared Folder/Creating_A_New_Share_Folder.PNG" alt="Creating a New Share Folder" width="800">
 
+<img src="Screenshots/Creating a Shared Folder/Naming_NewShareFile.PNG" alt="Naming New Share Folder" width="800">
+
 After the Server's Main Shared Folder is created, each department's designated shared folder can be created (Finance, HR, and Marketing).
 
 <img src="Screenshots/Creating a Shared Folder/Create_Share_Folder_For_Each_Department.PNG" alt="Designated Department Shared Folder" width="800">
 
 Before Sharing the Folder, we must ensure that each Shared Folder has the correct Sharing and NTFS permissions using the "Least Priviledge" princicple.
 For best practice it is best to share the folder using `Advanced Sharing` and give "Full Control" to Everyone or specific group. Then fine tune the Access Control with NTFS Permissions.
+
+<img src="Screenshots/Creating a Shared Folder/AHTech_Shared Folder_Sharing_Permission.PNG" alt="Advanced Sharing Permissions" width="800">
+
+<img src="Screenshots/Creating a Shared Folder/AHTech Shared Folder_NTFS_Permissions.PNG" alt="Main Shared Folder NTFS Permissions" width="800">
 
 In this objective, Everyone has accessed to the Shared Folder, "AHTech Shared Folder", but NTFS Permissions only allows each User access to their department's shared folder, but denied access to other department's shared folders.
 As a special note, Emily Walsh was given modified permission to the department folder. The other users, Chris Chen and Pedro Gonzales, only has modify permissions to their own home folders. 
