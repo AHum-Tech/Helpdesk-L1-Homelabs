@@ -4,21 +4,21 @@
 
 1) Create the specified users in our branch in Los Angeles. Then create and assign them to their corresponding department security groups to ensure proper NTFS permission inheritance.
 
-|Names		|Department	|Title				|Company Number		 |Email			|Special Notes							|
+|Names		|Department	|Title				|Company Number		 |Email			|Special Notes							
 |---------------|---------------|-------------------------------|------------------------|----------------------|-------------------------------------------------------|
 |Emily Walsh	|Finance	|Chief Financial Officer (CFO)	|(382) 390-3905 Ext. 3945|`ewalsh@AHTech.com`	|Give special modify permission to the Finance Folder	|
-|Chris Chen	|HR		|Talent Acquisition Specialist	|(382) 390-3905 Ext. 2034|`cchen@AHTech.com`	|							|
-|Pedro Gonzales	|Marketing	|Product Marketing Manager (PMM)|(382) 390-3905 Ext. 4902|`pgonzales@AHTech.com`|							|
+|Chris Chen	|HR		|Talent Acquisition Specialist	|(382) 390-3905 Ext. 2034|`cchen@AHTech.com`	|Only give modify permission to their Home Folder	|						
+|Pedro Gonzales	|Marketing	|Product Marketing Manager (PMM)|(382) 390-3905 Ext. 4902|`pgonzales@AHTech.com`|Only give modify permission to their Home Folder	|
+
+Verify access to the new accounts before proceeding to creating new share folders.						
 
 
-
-2) **Create a Shared Home Folder**
+2) **Create Share Folders**
  
-- Create a network drive to each user's account called "AHTech Shared Folder" that is accessible by all Users.
-- Within it, create a folder for each department that can be accessed by only the members of their department. Each New User should have their own home folder with modify permissions in their respective department. 
-- Then log into each user's account and create a text file with their name to verify access.
+- Create a main Share Folder called "AHTech Shared Folder" that is shared and can be accessed by the whole company.
+- Within it, create a Share Folder for each department that can be accessed by only the members of their department. Each New User should have their own home folder with modify permissions in their respective department. 
 
-3) Map "AHTech Shared Folder" to a drive on New User's account for easy access.
+3) Map "AHTech Shared Folder" to a drive each New User's account for easy access.
 
 ## Onboarding Process
 
@@ -64,6 +64,30 @@ For the objective, we will be using `Global` Group Scope and `Security` Group Ty
 To add a member to a security group, `right-click` the Security group and click `Properties`. Under the `Members`tab enter the members name and add them to the group.
 
 <img src="Screenshots/Finance_Group_Adding Members.PNG" alt="Adding Members to Security Groups" width="800">
+
+## Creating a Shared Home Folder
+
+To create a Shared Folder on the Domain, use the Server Manager under Shares to create a new Share Folder.
+The folder was named "AHTech Shared Folder" as directed by the objective.
+
+<img src="Screenshots/Creating_A_New_Share_Folder.PNG" alt="Creating a New Share Folder" width="800">
+
+After the Server's Main Shared Folder is created, each department's designated shared folder can be created (Finance, HR, and Marketing).
+
+<img src="Screenshots/Create_Share_Folder_For_Each_Department.PNG" alt="Designated Department Shared Folder" width="800">
+
+Before Sharing the Folder, we must ensure that each Shared Folder has the correct Sharing and NTFS permissions using the "Least Priviledge" princicple.
+For best practice it is best to share the folder using `Advanced Sharing` and give "Full Control" to Everyone or specific group. Then fine tune the Access Control with NTFS Permissions.
+
+In this objective, Everyone has accessed to the Shared Folder, "AHTech Shared Folder", but NTFS Permissions only allows each User access to their department's shared folder, but denied access to other department's shared folders.
+As a special note, Emily Walsh was given modified permission to the department folder. The other users, Chris Chen and Pedro Gonzales, only has modify permissions to their own home folders. 
+
+
+
+
+
+
+## Mapping Shared Folder to Drive
 
 
 
