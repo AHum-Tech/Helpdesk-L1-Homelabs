@@ -42,7 +42,9 @@ In this objective, Everyone has accessed to the Shared Folder, "AHTech Shared Fo
 
 <img src="Screenshots/Creating a Shared Folder/Marketing_Folder_NTFS_Permissions.PNG" alt="Marketing Folder NTFS Permissions" width="800">
 
-As a special note, Emily Walsh was given modified permission to the department folder. The other users, Chris Chen and Pedro Gonzales, only has modify permissions to their own home folders. 
+As a special note, Emily Walsh was given modified permission to the department folder. 
+
+The other users, Chris Chen and Pedro Gonzales, only has modify permissions to their own home folders. 
 
 <img src="Screenshots/Creating a Shared Folder/Emily_Walsh_Folder_NTFS_Permissions.PNG" alt="Special NTFS Permission" width="800">
 
@@ -55,7 +57,7 @@ Verifying Access Controls through user "Emily Walsh" in Finance Security Group. 
 There are several ways to map a drive to a user's account. 
 1) From the File Explorer through "This PC"
 2) Creating a GPO (Group Policy Object) for all users on the Domain
-3) Using `net use` on CMD or Powershell 
+3) Using `net use` command on CMD or Powershell 
 4) From the User's properties profile tab in Active Directory
 >**Note**: This only works if the user has full control permission of the folder
 
