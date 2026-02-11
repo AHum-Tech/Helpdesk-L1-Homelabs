@@ -38,12 +38,12 @@ In this objective, Everyone has accessed to the Shared Folder, "AHTech Shared Fo
 
 <img src="Screenshots/Creating a Shared Folder/Create_Share_Folder_For_Each_Department.PNG" alt="Department Share Folder Creation" width="800">
 
-<img src="Screenshots/Creating a Shared Folder/Finance_Folder_NTFS_Permissions.PNG" alt="Finance Folder NTFS Permissions" width="800">
-
 <img src="Screenshots/Creating a Shared Folder/Marketing_Folder_NTFS_Permissions.PNG" alt="Marketing Folder NTFS Permissions" width="800">
 
 As a special note, Emily Walsh was given modified permission to the department folder. 
-The other users, Chris Chen and Pedro Gonzales, only has modify permissions to their own home folders. 
+The other users, Chris Chen and Pedro Gonzales, only has modify permissions to their own home folders.
+
+<img src="Screenshots/Creating a Shared Folder/Emily_Walsh_Finance_Folder_NTFS_Permissions.PNG" alt="Finance Folder NTFS Permissions" width="800"> 
 
 <img src="Screenshots/Creating a Shared Folder/Emily_Walsh_Folder_NTFS_Permissions.PNG" alt="Special NTFS Permission" width="800">
 
