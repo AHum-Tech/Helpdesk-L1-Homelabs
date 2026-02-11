@@ -97,7 +97,7 @@ To map a network drive via Active Directory, open the User Properties for the ta
 
 
 
-### Verify Network Drive has successfully been mapped.
+### Verify Network Drive has been Successfully Mapped
 
 After mapping a network drive using any method, log in to a domain-joined client and verify that the drive has been successfully mapped. In this example, the user Emily Walsh has the shared folder ‘AHTech Shared Folder’ successfully mapped to the Z: drive.
 
