@@ -2,7 +2,7 @@
 
 ### Objectives						
 
-**Create Share Folders**
+**Create and Map Share Folders**
  
 - Create a main Share Folder called "AHTech Shared Folder" that is shared and can be accessed by the whole company.
 
@@ -12,11 +12,11 @@
 
 - Ensure Only Emily Walsh has full modify permission to the Finance Folder along with her own homefolder. Chris Chen and Pedro Gonzales should only have fully modify permissions in their own home folder
 
-- Finally, Map "AHTech Shared Folder" to a drive each New User's account for easy access.
+- After verifying appropriate Access Control was given, Map "AHTech Shared Folder" to a drive each New User's account for easy access.
 
 ## Creating a Shared Home Folder
 
-To create a Shared Folder on the Domain, use the Server Manager under Shares to create a new Share Folder.
+To create a Shared Folder on the Domain Server, use the Server Manager software and under Shares, create a new Share Folder.
 The folder was named "AHTech Shared Folder" as directed by the objective.
 
 <img src="Screenshots/Creating a Shared Folder/Creating_A_New_Share_Folder.PNG" alt="Creating a New Share Folder" width="800">
@@ -52,6 +52,20 @@ Verifying Access Controls through user "Emily Walsh" in Finance Security Group. 
 
 ## Mapping Shared Folder to Drive
 
+There are several ways to map a drive to a user's account. 
+1) From the File Explorer through "This PC"
+2) Creating a GPO (Group Policy Object) for all users on the Domain
+3) Using `net use` on CMD or Powershell 
+4) From the User's properties profile tab in Active Directory
+>**Note**: This only works if the user has full control permission of the folder
+
+We will focus on the first two method.
+
+**Mapping to Drive through File Explorer**
+
+`Right-Click` "This PC" in File Explorer and click "Map Network Drive". Then select a letter drive and folder to map the drive. Check "Reconnect at Sign-in" to have the drive mapped during every sign-in.
+
+**Mapping to Drive through GPO**
 
 
 
