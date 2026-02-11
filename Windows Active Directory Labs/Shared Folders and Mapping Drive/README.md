@@ -81,6 +81,8 @@ Navigate to User Configuration > Preferences > Windows Settings > Drive Maps, an
 
 Run gpupdate /force in the command prompt to enforce Group Policy updates and ensure the policy is applied to all domain-joined devices.
 
+>**Note**: This method is ideal for mapping a network drive to multiple users simultaneously, ensuring consistent access across the group.
+
 ### Mapping a Network Drive using CMD
 
 To map a network drive via the command line, use the `net use` command followed by the desired drive letter and folder path. Include the `/persistent:yes` switch to ensure the drive is automatically reconnected each time the user signs in.
