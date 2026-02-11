@@ -10,9 +10,9 @@
 
 >**Note**: Users, Security Group (Department): Emily Walsh, Finance; Chris Chen,HR; Pedro Gonzales,Marketing.
 
--Ensure Only Emily Walsh has full modify permission to the Finance Folder along with her own homefolder. Chris Chen and Pedro Gonzales should only have fully modify permissions in their own home folder
+- Ensure Only Emily Walsh has full modify permission to the Finance Folder along with her own homefolder. Chris Chen and Pedro Gonzales should only have fully modify permissions in their own home folder
 
- -Finally, Map "AHTech Shared Folder" to a drive each New User's account for easy access.
+- Finally, Map "AHTech Shared Folder" to a drive each New User's account for easy access.
 
 ## Creating a Shared Home Folder
 
