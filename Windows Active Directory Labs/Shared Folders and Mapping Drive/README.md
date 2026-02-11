@@ -12,7 +12,7 @@
 
 - Ensure Only Emily Walsh has full modify permission to the Finance Folder along with her own homefolder. Chris Chen and Pedro Gonzales should only have fully modify permissions in their own home folder
 
-- After verifying appropriate Access Control was given, Map "AHTech Shared Folder" to a drive each New User's account for easy access.
+- After verifying appropriate Access Control was given, Map "AHTech Shared Folder" to a network drive each New User's account for easy access.
 
 ## Creating a Shared Home Folder
 
@@ -59,15 +59,35 @@ There are several ways to map a drive to a user's account.
 2) Creating a GPO (Group Policy Object) for all users on the Domain
 3) Using `net use` command on CMD or Powershell 
 4) From the User's properties profile tab in Active Directory
+
+
+### Mapping a Network Drive through File Explorer
+
+To map a drive from the File Explorer, `Right-Click` "This PC" and click "Map Network Drive". Then select a letter drive and folder to map the drive. Check "Reconnect at Sign-in" to have the drive mapped during every sign-in.
+
+### Mapping a Network Drive through GPO
+
+Here’s a polished, professional version of your paragraph:
+
+To map a network drive using Group Policy, open the Group Policy Management Console `gpmc.msc` and create a new GPO with a descriptive name. Right-click the GPO and select Edit. 
+
+Navigate to User Configuration > Preferences > Windows Settings > Drive Maps, and for each mapping, configure the following fields: Action: Create, Location: [Shared Folder Path], and Drive: [Select Drive Letter].
+
+Run gpupdate /force in the command prompt to enforce Group Policy updates and ensure the policy is applied to all domain-joined devices.
+
+
+### Mapping a Network Drive using CMD
+
+To map a network drive via the command line, use the `net use` command followed by the desired drive letter and folder path. Include the `/persistent:yes` switch to ensure the drive is automatically reconnected each time the user signs in.
+
+>**Note**: Ensure that the command prompt is run under the user’s account rather than as an administrator, as mapping the drive from an elevated session may prevent it from appearing correctly in the user’s session.
+
+### Mapping a Network Drive through Active Directory in User Properties
+
+To map a network drive via Active Directory, open the User Properties for the targeted account and navigate to the Profile tab. Under Home Folder, select Connect, choose the desired drive letter, and specify the folder path.
 >**Note**: This only works if the user has full control permission of the folder
 
-We will focus on the first two method.
 
-### Mapping to Drive through File Explorer
-
-`Right-Click` "This PC" in File Explorer and click "Map Network Drive". Then select a letter drive and folder to map the drive. Check "Reconnect at Sign-in" to have the drive mapped during every sign-in.
-
-### Mapping to Drive through GPO
 
 
 
