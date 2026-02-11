@@ -83,7 +83,7 @@ To map a network drive via the command line, use the `net use` command followed 
 ### Mapping a Network Drive through Active Directory in User Properties
 
 To map a network drive via Active Directory, open the User Properties for the targeted account and navigate to the Profile tab. Under Home Folder, select Connect, choose the desired drive letter, and specify the folder path.
->**Note**: This only works if the user has full control permission of the folder
+>**Note**: This only works if the user has full control permission of the folder.
 
 
 
