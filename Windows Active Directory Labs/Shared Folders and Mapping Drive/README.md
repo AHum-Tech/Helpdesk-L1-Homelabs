@@ -1,6 +1,6 @@
 # Creating Shared Folder and Mapping it to a Drive
 
-## Objectives						
+### Objectives						
 
 **Create Share Folders**
  
@@ -11,7 +11,7 @@
 
 Finally, Map "AHTech Shared Folder" to a drive each New User's account for easy access.
 
-### Creating a Shared Home Folder
+## Creating a Shared Home Folder
 
 To create a Shared Folder on the Domain, use the Server Manager under Shares to create a new Share Folder.
 The folder was named "AHTech Shared Folder" as directed by the objective.
@@ -47,7 +47,7 @@ Verifying Access Controls through user "Emily Walsh" in Finance Security Group. 
 
 <img src="Screenshots/Creating a Shared Folder/Access_Denied_From_Emily_Walsh_Account_To_Marketing_Folder.PNG" alt="Access Denied to Folder" width="800">
 
-### Mapping Shared Folder to Drive
+## Mapping Shared Folder to Drive
 
 
 
