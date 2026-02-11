@@ -45,7 +45,7 @@ The other users, Chris Chen and Pedro Gonzales, only has modify permissions to t
 
 <img src="Screenshots/Creating a Shared Folder/Finance_Folder_NTFS_Permissions.PNG" alt="Finance Folder NTFS Permissions" width="800"> 
 
-<img src="Screenshots/Creating a Shared Folder/Emily_Walsh_Folder_NTFS_Permissions.PNG" alt="Special NTFS Permission" width="800">
+<img src="Screenshots/Creating a Shared Folder/Chris_Chen_Folder_NTFS_Permissions.PNG" alt="Home Folder Permissions" width="800">
 
 Verifying Access Controls through user "Emily Walsh" in Finance Security Group. User should have access to Finance Folder, but not to any other department's folder.
 
