@@ -6,14 +6,13 @@
  
 - Create a main Share Folder called "AHTech Shared Folder" that is shared and can be accessed by the whole company.
 
+- Within it, create a Share Folder for each department that can be accessed by only the members of their department. Each User should have their own home folder with modify permissions in their respective department. 
+
 >**Note**: Users, Security Group (Department): Emily Walsh, Finance; Chris Chen,HR; Pedro Gonzales,Marketing.
 
-- Within it, create a Share Folder for each department that can be accessed by only the members of their department. Each User should have their own home folder with modify permissions in their respective department. 
 -Ensure Only Emily Walsh has full modify permission to the Finance Folder along with her own homefolder. Chris Chen and Pedro Gonzales should only have fully modify permissions in their own home folder
 
- 
-
-Finally, Map "AHTech Shared Folder" to a drive each New User's account for easy access.
+ -Finally, Map "AHTech Shared Folder" to a drive each New User's account for easy access.
 
 ## Creating a Shared Home Folder
 
