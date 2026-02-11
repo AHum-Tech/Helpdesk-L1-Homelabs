@@ -57,7 +57,7 @@ Verifying Access Controls through user "Emily Walsh" in Finance Security Group. 
 There are several ways to map a drive to a user's account. 
 1) From the File Explorer through "This PC"
 2) Creating a GPO (Group Policy Object) for all users on the Domain
-3) Using `net use` command on CMD or Powershell 
+3) Using `net use` command in CMD or Powershell 
 4) From the User's properties profile tab in Active Directory
 
 
@@ -67,11 +67,9 @@ To map a drive from the File Explorer, Right-Click "This PC" and click "Map Netw
 
 ### Mapping a Network Drive through GPO
 
-Here’s a polished, professional version of your paragraph:
-
 To map a network drive using Group Policy, open the Group Policy Management Console `gpmc.msc` and create a new GPO with a descriptive name. Right-click the GPO and select Edit. 
 
-Navigate to User Configuration > Preferences > Windows Settings > Drive Maps, and for each mapping, configure the following fields: Action: Create, Location: [Shared Folder Path], and Drive: [Select Drive Letter].
+Navigate to User Configuration > Preferences > Windows Settings > Drive Maps, and for each mapping, configure the following fields: Action:Create, Location: [Shared Folder Path], and Drive: [Select Drive Letter].
 
 Run gpupdate /force in the command prompt to enforce Group Policy updates and ensure the policy is applied to all domain-joined devices.
 
