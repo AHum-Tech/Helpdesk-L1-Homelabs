@@ -63,7 +63,7 @@ There are several ways to map a drive to a user's account.
 
 ### Mapping a Network Drive through File Explorer
 
-To map a drive from the File Explorer, `Right-Click` "This PC" and click "Map Network Drive". Then select a letter drive and folder to map the drive. Check "Reconnect at Sign-in" to have the drive mapped during every sign-in.
+To map a drive from the File Explorer, Right-Click "This PC" and click "Map Network Drive". Then select a letter drive and folder to map the drive. Check "Reconnect at Sign-in" to have the drive mapped during every sign-in.
 
 ### Mapping a Network Drive through GPO
 
