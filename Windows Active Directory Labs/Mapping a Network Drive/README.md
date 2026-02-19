@@ -1,4 +1,4 @@
-# Creating Shared Folder and Mapping it to a Drive
+# Mapping a Network Drive
 
 ### Objectives						
 
@@ -6,7 +6,7 @@
 
 Map "AHTech Shared Folder" to a network drive each New User's account for easy access.
 
-## Mapping Shared Folder to Drive
+## Mapping Shared Folder to a Network Drive
 
 There are several ways to map a drive to a user's account. 
 1) From the File Explorer through "This PC"

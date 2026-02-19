@@ -1,4 +1,4 @@
-# Creating Shared Folder and Mapping it to a Drive
+# Shared Folder and NTFS Permissions
 
 ### Objectives						
 
