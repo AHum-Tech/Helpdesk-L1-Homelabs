@@ -22,15 +22,19 @@ Create a GPO for each of the following:
 Group Policies are divided into two main types of configurations: "Computer Configurations" and "User Configurations." Each of these categories includes both "Policies" and "Preferences," which contain predefined settings that can be applied throughout the domain.
 
 **Computer Configurations**
+
 Settings and Policies pertaining to the computer regardless of the user who logs in. They control aspects such as software installation, security settings, and Operating System functionalities.
 
 **User Configurations**
+
 Settings targetting user accounts and their environments. These settings apply when a user logs into any computer within a domain, allowing for personalized environments, such as desktop settings, application configurations, and user permissions.
 
 **Policies**
+
 Mandatory settings that cannot be overidden by users and takes effect immediately upon application.
 
 **Preferences**
+
 Optional settings that users can modify and change as needed.
 
 ### How to Create Group Policies
