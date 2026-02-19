@@ -117,7 +117,7 @@ You can unlink and remove a group policy from being active in the Group Policy M
 
 <img src="Screenshots/14_Group_Policy_Link.PNG" alt="Group Policy Link" width="800">
 
-To fully delete the GPO, it must be deleted in the Group Policy Object Container.
+To fully delete a GPO, it must be deleted in the Group Policy Object Container.
 
 <img src="Screenshots/15_Deleting_GPOs.PNG" alt="Deleting GPOs" width="800">
 
