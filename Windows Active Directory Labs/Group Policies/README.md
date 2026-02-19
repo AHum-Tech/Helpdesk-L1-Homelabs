@@ -45,7 +45,7 @@ Name the GPO. For organization, it's best to name it after its function.
 
 Once the GPO has been created, edit the GPO and set the settings for the Group Policy.
 
-## Group Policy Objective
+## Group Policy Objectives
 ### Password Length and Expiration GPO
 
 Password Policy can be set under: `Computer Configurations` > `Policies` > `Windows Settings` > `Security Settings` > `Account Policies`
