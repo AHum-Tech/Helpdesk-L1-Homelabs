@@ -50,6 +50,8 @@ Once the GPO has been created, edit the GPO and set the settings for the Group P
 
 Password Policy can be set under: `Computer Configurations` > `Policies` > `Windows Settings` > `Security Settings` > `Account Policies` > `Password Policy` 
 
+Managing end user's password is important to prevent log in vulnerablility.
+
 <img src="Screenshots/2_Password_Policy_Directory_Navigation.PNG" alt="Password Policy Directory Navigation" width="800">
 
 <img src="Screenshots/3_Password_Policy_Editting_Settings.PNG" alt="Password Policy Settings Edit" width="800">
@@ -58,11 +60,41 @@ Password Policy can be set under: `Computer Configurations` > `Policies` > `Wind
 
 Desktop Wallpaper Group Policy Settings can be found under: `User Configurations` > `Policies` > `Administrative Template` > `Desktop` > `Desktop` > `Desktop Wallpaper`
 
+Having a Desktop Wallpaper Policy will create a uniformed and professional look for the organization.
+
 <img src="Screenshots/4_Desktop_Wallpaper_Directory_Navigation.PNG" alt="Desktop Wallpaper Directory Navigation" width="800">
 
 <img src="Screenshots/5_Desktop_Wallpaper_GPO_Setting.PNG" alt="Desktop Wallpaper GPO Setting" width="800">
 
 ## Control Panel Access Restrictions
+
+To restrict access to the control panel, the GPO settings can be found under: `User Configurations` > `Policies` > `Administrative Template` > `Control Panel` 
+
+Restricting the Control Panel will prevent misconfigurations from end users.
+
+<img src="Screenshots/6_Control Panel_Directory_Navigation.PNG" alt="Control Panel Directory Navigation" width="800">
+
+<img src="Screenshots/7_Control Panel_GPO_Setting.PNG" alt="Control Panel GPO Setting" width="800">
+
+When an end user tries to access the control panel.
+<img src="Screenshots/8_Control Panel_Restricted.PNG" alt="Control Panel Restricted" width="800">
+
+## Deny Removable Drive from being Accessed
+
+To deny removeable drive from being accessed, the GPO setting is found under: `Computer Configuration` > `Policies` > `Administrative Templates` > `System` > `Removable Storage Access`
+
+Denying removable drives help protect systems from being compromised by external devices.
+
+<img src="Screenshots/9_Deny_Removable_Drive_Directory_Navigation.PNG" alt="Deny Removable Drive Directory Navigation" width="800">
+
+<img src="Screenshots/10_Deny_Removable_Drive_GPO_Setting.PNG" alt="Deny Removable Drive GPO Setting" width="800">
+
+## Account Lockout Policy
+
+Account Lockout setting is in t
+
+
+
 
 
 
