@@ -72,7 +72,7 @@ To set a quota, open File Server Resource Manager and select Quota Management an
 
 <img src="Screenshots/12_Configuring_Quota_Settings.PNG" alt="Configuring Quota for Share Folders" width="800">
 
-Once the quota is set, users will not be able to exceed the the data limit.
+Once the quota is set, users will not be able to exceed the the data limit. In the following image, it shows the end user is not able to save a 139MB video file that exceeded the 100MB limit quota.
 
 <img src="Screenshots/13_Quota_Restriction.PNG" alt="Quota Restrictions" width="800">
 
@@ -83,6 +83,8 @@ File Screening adds restrictions to the type of data that can be stored in the f
 <img src="Screenshots/14_File_Screen_Settings.PNG" alt="File Screen Settings" width="800">
 
 To set File Screening, in File Server Resource Manager, select File Screening Management and create a File Screen. In the File Screen settings, select a pre-made template or manually select the type of files that would be screened. There is a "Passive Screening" option which does not block users from saving the file, but will monitor the specific file that is enable by file screening.
+
+In the following image, shows the end user is not able to save a file in a video format, ".mp4", in the screened share file.
 
 <img src="Screenshots/15_File_Screen_Permission_Denied.PNG" alt="File Screen Permission Denied" width="800">
 
