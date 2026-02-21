@@ -84,7 +84,7 @@ File Screening adds restrictions to the type of data that can be stored in the f
 
 To set File Screening, in File Server Resource Manager, select File Screening Management and create a File Screen. In the File Screen settings, select a pre-made template or manually select the type of files that would be screened. There is a "Passive Screening" option which does not block users from saving the file, but will monitor the specific file that is enable by file screening.
 
-In the following image, shows the end user is not able to save a file in a video format, ".mp4", in the screened share file.
+In the following image, shows the end user is not able to save a file in a video format, ".mp4", in the screened share folder.
 
 <img src="Screenshots/15_File_Screen_Permission_Denied.PNG" alt="File Screen Permission Denied" width="800">
 
