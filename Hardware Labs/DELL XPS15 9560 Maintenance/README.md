@@ -33,6 +33,8 @@ After all other method has failed and the USB External Wi-Fi adapter was able to
 - NCGIGA AX210NGW Wi-Fi 6E Card
 - Anti-Static Wristband and Mat
 
+<img src="Screenshots/WiFi Adapter Replacement/1_New_Adapter.jpeg" alt="New WiFi Adapter" width="800">
+
 To replace the Killer1535 Wi-Fi Adapter, flip the laptop around and unscrew the cover using the appropriate size Torx screwdriver. For the Dell XPS 15 9560, there are also two Philips screws underneath the middle cover. Ensure all screws are kept in a container to prevent losing them.
 
 >**Note**: Always use ESD protections when working on hardwares (ie. ESD Wristband and Mat), and never work on a laptop plugged in to the power.
