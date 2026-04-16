@@ -85,6 +85,4 @@ Once the data has been migrated successfully, everything should be as before, bu
 
 Lastly, to make sure that the UEFI easily finds the OS and boots correctly, change the boot order in the UEFI. 
 
-<img src="Screenshots/22_UEFI_Boot_Order.jpeg" alt="UEFI Boot Order" width="800"> 
-
-
+<img src="Screenshots/22_UEFI_Boot_Order.jpeg" alt="UEFI Boot Order" width="800">
