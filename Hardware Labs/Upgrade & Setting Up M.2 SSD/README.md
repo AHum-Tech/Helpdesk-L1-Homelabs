@@ -41,9 +41,7 @@ Files were backed up in an external hard drive in case problem arises in the pro
 
 2) Remove any components in the way of installation (ie. Dedicated Graphics Card) and unscrew the heatsink (if provided by the motherboard) to unveil the M.2 PCIe slot
 
-
 <img src="Screenshots/10_PC_Before_Installation.jpeg" alt="PC Before SSD Installation" width="800">
-
 
 <img src="Screenshots/11_PC_Components_Removed.jpeg" alt="PC Components Removed" width="800">
 
@@ -59,9 +57,9 @@ Files were backed up in an external hard drive in case problem arises in the pro
 
 5) Peel off the adhesive from the back of th heatsink to expose the thermal pad to attach on the SSD to regulate its temperature. NVMe tends to generate heat during heavy use; the heatsink allows the heat to be dispearsed and disappated.
 
-<img src="Screenshots/15_Heatsink_Before.jpeg" alt="Heatsink Before Adhesive Removed" width="800"> 
+<img src="Screenshots/15_Heatsink_Before.jpeg" alt="Heatsink Before Adhesive Removed" width="600"> 
 
-<img src="Screenshots/16_Heatsink_Adhesive_Removed.jpeg" alt="Heatsink Adhesive Removed" width="800"> 
+<img src="Screenshots/16_Heatsink_Adhesive_Removed.jpeg" alt="Heatsink Adhesive Removed" width="600"> 
 
 6) Assemble all components back together.
 
@@ -69,14 +67,24 @@ Files were backed up in an external hard drive in case problem arises in the pro
 
 For any new storage drive it must be partioned properly for use. This can be done under Disk Management. If installed correctly, Windows will be able to detect it, but will not be able to use until it is properly partitioned.
 
-In Disk Management, right-click on the NVMe SSD and select "New Simple Volume" to create a basic storage unit. This will launch the wizard that would be used to complete the setup of the newly installed SSD.
+In Disk Management, initialized the SSD choose the appropriate partioning type; MBR or GPT (GUID Partioning Type). Since I use UEFI, I chose GPT. Then right-click on the NVMe SSD and select "New Simple Volume" to create a basic storage unit. This will launch the wizard that would be used to complete the setup of the newly installed SSD. Set the appropriate amount of storage space, give it a disk letter, and have it formatted.
 
-After the SSD is installed, it is time to migrate the data from the old storage drive. Fortunately, specifically for the Samsung 990 Pro NVMe M.2 SSD, Samsung provide a tool call Samsung Magician that seemlessly migrate data from the old storage drive to the new SSD. 
+<img src="17_Initializing_Disk.PNG" alt="Initializing Disk" width="800"> 
+
+<img src="18_Partioning_Wizard.PNG" alt="Paritioning Wizard" width="800"> 
+
+<img src="19_Disk_Format.PNG" alt="Disk Format" width="800"> 
+
+<img src="20_SSD_Driver_Update.PNG" alt="SSD Driver Update" width="800"> 
+
+After the SSD is installed and ensure the driver is up to date, it is time to migrate the data from the old storage drive. Fortunately, specifically for the Samsung 990 Pro NVMe M.2 SSD, Samsung provide a tool call Samsung Magician that seemlessly migrate data from the old storage drive to the new SSD. 
+
+<img src="21_Samsung_Magician_Migration_Tool_2.PNG" alt="Samsung Magician Migration Tool 2" width="800"> 
 
 Once the data has been migrated successfully, everything should work as it was before, but better and faster.
 
 Lastly, to make sure that the UEFI easily finds the OS and boots correctly, change the boot order in the UEFI. 
 
-
+<img src="22_UEFI_Boot_Order.jpeg" alt="UEFI Boot Order" width="800"> 
 
 
