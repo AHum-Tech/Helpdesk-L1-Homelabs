@@ -53,7 +53,7 @@ Once the new card is inserted, reconnect the antenna wires, making sure the main
 
 <img src="Screenshots/WiFi Adapter Replacement/5_New_WiFi_Card_Installed.jpeg" alt="New WiFi Card Installed" width="800">
 
-Using the USB external Wi-Fi adapter or download separately in a flashdrive, download the install the new Wi-Fi card adapter driver for both Wi-Fi and Bluetooth. 
+Using the USB external Wi-Fi adapter or download separately in a flashdrive, download and install the new Wi-Fi card driver for both Wi-Fi and Bluetooth. 
 
 <img src="Screenshots/WiFi Adapter Replacement/6_New_WiFi_Card_Installation.PNG" alt="New WiFi Card Installation" width="800">
 
@@ -65,6 +65,8 @@ The Dell XPS 15 9560 battery has been charging continuously even when reaching f
 
 The Dell XPS 15 9560 for this specific model uses a 97Kwh battery with a specific model number of: 6GTPY
 
+<img src="Screenshots/Battery Replacement/1_97Kwh_6GTPY_Battery.jpeg" alt="97 Kwh 6GTPY Battery" width="800">
+
 ### Tools and Equipments
 
 -M2 Torx Screwdriver
@@ -74,9 +76,21 @@ The Dell XPS 15 9560 for this specific model uses a 97Kwh battery with a specifi
 
 To replace the battery in the Dell XPS 15 9560 laptop, flip it over and unscrew the the cover using the Torx screwdriver. As mention previously, there are two Philips screwdriver underneath the middle cover.
 
+<img src="Screenshots/Battery Replacement/2_Dell_XPS15_9560.jpeg" alt="Dell XPS 15 9560" width="800">
+
+<img src="Screenshots/Battery Replacement/3_Back_Cover.jpeg" alt="Back Cover" width="800">
+
+<img src="Screenshots/Battery Replacement/4_Middle_Philips_Screws.jpeg" alt="Middle Philips Screws" width="800">
+
 >**Note**: Always use ESD protections when working on hardwares (ie. ESD Wristband and Mat), and never work on a laptop plugged in to the power.
 
 Once the cover is off, locate the battery at the bottom part of the laptop. Disconnect the power wire connector connecting it to the laptop, and then unscrew the screws holding the battery down.
 
+<img src="Screenshots/Battery Replacement/5_Battery_Location.jpeg" alt="Battery Location" width="800">
+
+<img src="Screenshots/Battery Replacement/6_Screws_and_Connector_Location.jpeg" alt="Battery Screw and Connector Location" width="800">
+
 Install the new battery. Screw the screws back down and reconnect the power wire connection. Put the cover back on and test the laptop and make sure that it is working properly before screwing the cover securely on.
+
+<img src="Screenshots/Battery Replacement/7_Battery_Check.jpeg" alt="Battery Check" width="800">
 
