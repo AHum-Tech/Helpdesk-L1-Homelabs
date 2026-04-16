@@ -4,7 +4,7 @@
 
 The computer was previously equipped with a 1TB Western Digital HDD. With this configuration, the system experienced significant delays in startup and a lack of responsiveness when launching applications and browsers. It frequently reached 100% disk utilization** during routine tasks, which are typically handled efficiently by an SSD. 
 
-<img src="Screenshots/1_HDD_100%_ Utilization.PNG" alt="HDD 100% Utilization" width="800">
+<img src="Screenshots/1_HDD_100percent_Utilization.PNG" alt="HDD 100% Utilization" width="600">
 
 <img src="Screenshots/2_Lack_Response_Taskbar.jpeg" alt="Slow Response Taskbar" width="800">
 
