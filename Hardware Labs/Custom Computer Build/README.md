@@ -36,6 +36,7 @@ Arctic Freezer 33 Tower CPU Cooler Fan
 
 **Other Components** 
 TP-Link AC1300 PCIe Wifi Card 2.4G/5G Dual Band 
+
 LG BD-ROM/DVD Writer 3D Blue-ray Disc Playback & M-DISC Support
 
  
