@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Since 2018, I've built and maintained this Custom Built PC. This was my first time having hands-on experience working with computer hardware with minimal knowledge of anything Information Technology. Through this build, I've learned much about how each hardware component works and how to set up software to have the computer up and running.
+Since 2018, I've built and maintained this Custom Built PC. This was my first time having hands-on experience working with computer hardware with minimal knowledge of anything Information Technology. Through this build, I've learned much about how each hardware component works, how to set up software to have the computer up and running, and how to properly clean and maintain the computer so it is operating optimally.
 
 <img src="Screenshots/1_My Custom PC.jpeg" alt="Custom PC" width="800">
 
