@@ -33,7 +33,7 @@ After all other method has failed and the USB External Wi-Fi adapter was able to
 - NCGIGA AX210NGW Wi-Fi 6E Card
 - Anti-Static Wristband and Mat
 
-<img src="Screenshots/WiFi Adapter Replacement/1_New_Adapter.jpeg" alt="New WiFi Adapter" width="800">
+<img src="Screenshots/WiFi Adapter Replacement/1_New_WiFi_Card.jpeg" alt="New WiFi Card" width="600">
 
 To replace the Killer1535 Wi-Fi Adapter, flip the laptop around and unscrew the cover using the appropriate size Torx screwdriver. For the Dell XPS 15 9560, there are also two Philips screws underneath the middle cover. Ensure all screws are kept in a container to prevent losing them.
 
@@ -41,11 +41,21 @@ To replace the Killer1535 Wi-Fi Adapter, flip the laptop around and unscrew the 
 
 After taking off the cover, identify where the Wi-Fi card is located. For the Dell XPS 15 9560, the Wi-Fi card is located at the top left corner. There would be two wires connected to it and a plate with a screw to hold it down.
 
+<img src="Screenshots/WiFi Adapter Replacement/2_WiFi_Card_Location.jpeg" alt="WiFi Card Location" width="800">
+
 Unscrew the plate and using tweezers remove the two antenna wires from the old Wi-Fi card. For the Dell XPS 15 9560, the white wire is the main antenna, and the black wire is the aux. Then the Wi-Fi card should be able to be pulled of the M.2 PCIe slot. 
+
+<img src="Screenshots/WiFi Adapter Replacement/3_Old_WiFi_Card.jpeg" alt="Old WiFi Card_Plate and Screw" width="800">
+
+<img src="Screenshots/WiFi Adapter Replacement/4_Removing_Old_WiFi_Card.jpeg" alt="Removing Old WiFi Card" width="800">
 
 Once the new card is inserted, reconnect the antenna wires, making sure the main and aux wires corrosponds the same with the antenna slots on the new card. Then screw the card plate and put the cover back on (don't screw the cover back on until you ensure the Wi-Fi card is working properly).
 
+<img src="Screenshots/WiFi Adapter Replacement/5_New_WiFi_Card_Installed.jpeg" alt="New WiFi Card Installed" width="800">
+
 Using the USB external Wi-Fi adapter or download separately in a flashdrive, download the install the new Wi-Fi card adapter driver for both Wi-Fi and Bluetooth. 
+
+<img src="Screenshots/WiFi Adapter Replacement/6_New_WiFi_Card_Installation.PNG" alt="New WiFi Card Installation" width="800">
 
 When installtion is successful, the laptop should be connecting properly to the Wi-Fi and working correctly again.
 
