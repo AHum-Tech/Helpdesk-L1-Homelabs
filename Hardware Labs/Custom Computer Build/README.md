@@ -8,6 +8,28 @@ Since 2018, I've built and maintained this Custom Built PC. This was my first ti
 
 ## Specification
 
+|Component	| Specification			|
+|---------------|-------------------------------|
+|Motherboard	| ASUS Prime x470 Pro Series AM4 ATX|
+|OS		| Windows 10 Pro		|
+|CPU		| AMD Ryzen 5 2600 6CPU cores 3.4GHz|
+|Graphics Card	| Nvidia Geforce GTX 1070 |
+|RAM		| 16GB Corsair Vengeance DDR4 2133 MHz (x2 8GB Sticks)|
+|Storage	| 2TB Samsung 990 Pro NVMe M.2 SSD
+1TB Western Digital Caviar WD10EZEX-08WN4A0 HDD|
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Motherboard:** 
 
 ASUS Prime x470 Pro Series AM4 ATX
