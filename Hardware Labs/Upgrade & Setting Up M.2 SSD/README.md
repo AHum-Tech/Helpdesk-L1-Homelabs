@@ -81,7 +81,7 @@ After the SSD is installed and ensure the driver is up to date, it is time to mi
 
 <img src="Screenshots/21_Samsung_Magician_Migration_Tool_2.PNG" alt="Samsung Magician Migration Tool 2" width="800"> 
 
-Once the data has been migrated successfully, everything should work as it was before, but better and faster.
+Once the data has been migrated successfully, everything should be as before, but faster.
 
 Lastly, to make sure that the UEFI easily finds the OS and boots correctly, change the boot order in the UEFI. 
 
