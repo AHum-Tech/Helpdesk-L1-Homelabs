@@ -23,7 +23,7 @@ AMD Ryzen 5 2600 6CPU cores 3.4GHz
 **Graphics Card** 
 Nvidia Geforce GTX 1070
 
-**Ram** 
+**RAM** 
 
 16GB Corsair Vengeance DDR4 2133 MHz (x2 8GB Sticks)
 
@@ -40,6 +40,8 @@ Corsair CX750M 80+ Bronze 750W
 **Cooling** 
 
 Arctic Freezer 33 Tower CPU Cooler Fan
+
+(x3) Case Fans
 
 **Other Components** 
 
