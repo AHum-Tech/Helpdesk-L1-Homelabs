@@ -12,7 +12,7 @@ Since 2018, I've built and maintained this Custom Built PC. This was my first ti
 
 ASUS Prime x470 Pro Series AM4 ATX
 
-**OS**
+**OS:**
 
 Windows 10 Pro
 
@@ -21,6 +21,7 @@ Windows 10 Pro
 AMD Ryzen 5 2600 6CPU cores 3.4GHz
 
 **Graphics Card** 
+
 Nvidia Geforce GTX 1070
 
 **RAM** 
