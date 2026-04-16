@@ -16,8 +16,12 @@ Since 2018, I've built and maintained this Custom Built PC. This was my first ti
 |Graphics Card	| Nvidia Geforce GTX 1070 |
 |RAM		| 16GB Corsair Vengeance DDR4 2133 MHz (x2 8GB Sticks)|
 |Storage	| 2TB Samsung 990 Pro NVMe M.2 SSD 
-1TB Western Digital Caviar WD10EZEX-08WN4A0 HDD|
+|		|1TB Western Digital Caviar WD10EZEX-08WN4A0 HDD|
 |Power Supply	| Corsair CX750M 80+ Bronze 750W|
+|Cooling	|Arctic Freezer 33 Tower CPU Cooler Fan|
+|		| (x3) Case Fans|
+|Other Components| TP-Link AC1300 PCIe Wifi Card 2.4G/5G Dual Band |
+|		| LG BD-ROM/DVD Writer 3D Blue-ray Disc Playback & M-DISC Support|
 
 
 
