@@ -4,13 +4,13 @@
 
 The computer was previously equipped with a 1TB Western Digital HDD. With this configuration, the system experienced significant delays in startup and a lack of responsiveness when launching applications and browsers. It frequently reached 100% disk utilization** during routine tasks, which are typically handled efficiently by an SSD. 
 
-<img src="Screenshots/1_HDD_100percent_Utilization.PNG" alt="HDD 100% Utilization" width="600">
+<img src="Screenshots/1_HDD_100percent_Utilization.PNG" alt="HDD 100% Utilization" width="800">
 
 <img src="Screenshots/2_Lack_Response_Taskbar.jpeg" alt="Slow Response Taskbar" width="800">
 
 To remedy this problem, the Hard Disk Drive was upgraded to a 2TB Samsung 990 Pro M.2 SSD. SSDs are significantly faster than HDDs because have a faster storing technology compare to HDD's mechanical disk technology. Specifically NVMe M.2 SSD are even more significantly faster than traditional SSDs by utilizing the PCIe slot for a more direct connection to the motherboard rather than SATA connection.
 
-<img src="Screenshots/3_Samsung_990_Pro_NVMe_M2_SSD.jpeg" alt="Samsung 990 Pro NVMe M.2 SSD" width="800">
+<img src="Screenshots/3_Samsung_990_Pro_NVMe_M2_SSD.jpeg" alt="Samsung 990 Pro NVMe M.2 SSD" width="600">
 
 Samsung provided an easy data transfer software that allows users to mirror their saved data from their old storage drive to their upgraded storage drive. Before installing the new NVMe SSD, it is always important to backup all data.
 
@@ -18,7 +18,7 @@ Samsung provided an easy data transfer software that allows users to mirror thei
 
 Files were backed up in an external hard drive in case problem arises in the process.
 
-<img src="Screenshots/5_External_Hard_Drive_Backup.jpeg" alt="External Hard Drive Backup" width="800">
+<img src="Screenshots/5_External_Hard_Drive_Backup.jpeg" alt="External Hard Drive Backup" width="600">
 
 ### Tools and Equipments
 
@@ -27,11 +27,11 @@ Files were backed up in an external hard drive in case problem arises in the pro
 - M.2 screw and stand-off hardwares that came with the motherboard
 - Anti-Static wristband and mat
 
-<img src="Screenshots/6_Philips_Screwdriver.jpeg" alt="Phillips Screwdriver" width="800">
+<img src="Screenshots/6_Philips_Screwdriver.jpeg" alt="Phillips Screwdriver" width="600">
 
-<img src="Screenshots/7_M2_PC_Screws.jpeg" alt="M2 PC Screws" width="800">
+<img src="Screenshots/7_M2_PC_Screws.jpeg" alt="M2 PC Screws" width="600">
 
-<img src="Screenshots/8_Antistatic_Wristband.jpeg" alt="Anti-static Wristband" width="800">
+<img src="Screenshots/8_Antistatic_Wristband.jpeg" alt="Anti-static Wristband" width="600">
 
 ## Hardware Installation Procedure
 
