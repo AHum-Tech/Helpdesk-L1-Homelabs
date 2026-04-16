@@ -6,6 +6,6 @@ Since 2018, I've built and maintained this Custom Built PC. This was my first ti
 
 ## Specification
 
-*Motherboard:*ASUS Prime x470 Pro Series AM4 ATX
+**Motherboard:** ASUS Prime x470 Pro Series AM4 ATX
 
-*CPU:*
+**CPU:**
