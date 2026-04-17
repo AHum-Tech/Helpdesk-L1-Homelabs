@@ -65,9 +65,7 @@ To add a member to a security group, `right-click` the Security group and click 
 
 <img src="Screenshots/Creating New Users and Security Groups/Finance_Group_Adding Members.PNG" alt="Adding Members to Security Groups" width="800">
 
-### Setting Up New User in Microsoft 365 
 
-**Creating Email Account**
 
 
 
